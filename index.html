@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đoàn Nguyễn Thanh Tài - Giới Thiệu Cá Nhân</title>
+    <!-- Tải Tailwind CSS để đảm bảo giao diện đẹp và responsive -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Thiết lập font Inter cho toàn bộ trang web */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Màu nền xám nhạt */
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Khối chính (Card giới thiệu) -->
+    <div class="max-w-xl w-full bg-white p-8 sm:p-10 rounded-xl shadow-2xl transition duration-500 hover:shadow-3xl transform hover:-translate-y-1">
+        
+        <!-- Phần tiêu đề và ảnh đại diện (Tạm thời dùng placeholder) -->
+        <div class="text-center">
+            <!-- Dùng một icon hoặc hình tròn đơn giản làm ảnh đại diện -->
+            <div class="mx-auto w-24 h-24 bg-indigo-500 rounded-full flex items-center justify-center text-white text-3xl font-bold mb-4 shadow-lg">
+                ĐT
+            </div>
+            
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-2">
+                Đoàn Nguyễn Thanh Tài
+            </h1>
+            
+            <p class="text-xl font-medium text-indigo-600 mb-6">
+                Sinh viên Công nghệ
+            </p>
+            
+            <!-- Thông tin học vấn -->
+            <div class="bg-indigo-50 border-l-4 border-indigo-500 p-4 rounded-lg text-left mb-6">
+                <p class="text-sm font-semibold text-indigo-700">Trường Đại học</p>
+                <p class="text-lg font-bold text-indigo-900">Học viện Bưu chính Viễn thông</p>
+                <p class="text-sm text-indigo-600">Posts and Telecommunications Institute of Technology (PTIT)</p>
+            </div>
+        </div>
+        
+        <!-- Phần giới thiệu bản thân -->
+        <p class="text-gray-600 leading-relaxed mb-8 text-center sm:text-left">
+            Xin chào! Tôi là **Đoàn Nguyễn Thanh Tài**, hiện đang theo học tại **Học viện Bưu chính Viễn thông**. Tôi đam mê lập trình, phát triển phần mềm và luôn tìm kiếm cơ hội để áp dụng kiến thức vào các dự án thực tế. Rất vui được kết nối và học hỏi!
+        </p>
+        
+        <!-- Phần liên kết GitHub (Nút hành động chính) -->
+        <div class="flex justify-center">
+            <a href="https://github.com/taidoannguyenthanh20-dotcom" target="_blank" rel="noopener noreferrer" 
+               class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-semibold rounded-full shadow-lg text-white bg-gray-800 hover:bg-gray-700 transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-gray-500 focus:ring-opacity-50">
+                <!-- Icon GitHub dùng SVG inline -->
+                <svg class="w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.418 2.867 8.163 6.843 9.59.5.092.682-.217.682-.483 0-.237-.008-.827-.015-1.62-2.791.603-3.374-1.341-3.374-1.341-.456-1.159-1.114-1.465-1.114-1.465-.909-.619.069-.607.069-.607 1.004.072 1.531 1.033 1.531 1.033.89 1.528 2.341 1.087 2.91.832.091-.647.35-1.087.636-1.337-2.22-.253-4.555-1.107-4.555-4.93 0-1.09.39-1.984 1.029-2.685-.103-.253-.448-1.275.099-2.651 0 0 .84-.27 2.75 1.025A9.458 9.458 0 0112 6.844c.85.008 1.7.118 2.505.337 1.909-1.295 2.747-1.025 2.747-1.025.546 1.376.201 2.398.1 2.651.64.701 1.029 1.595 1.029 2.685 0 3.832-2.338 4.673-4.562 4.92.359.308.678.937.678 1.888 0 1.334-.012 2.41-.012 2.73 0 .267.18.583.688.483C19.13 20.183 22 16.437 22 12.017 22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+                </svg>
+                Trang GitHub của Tài
+            </a>
+        </div>
+        
+    </div>
+
+</body>
+</html>
